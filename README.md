@@ -14,3 +14,11 @@ avoiding the need to expose the entire model to a view . View can bind to proper
 conatined in models to the view
 Vue.js Flutter
 ```
+
+# Struct Immutability
+
+ ```
+ By default , struct is immutable as every variable is provided the keyboard let. That's why we must use of a special keyword mutating.
+ 
+ We can't call a mutating function using a instance which was declared with let declared . All its properties will become immutable.
+ ```
